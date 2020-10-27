@@ -74,7 +74,7 @@ function searchByWord(word, url){
                         <div class="card-body">
                             <h5 class="card-title" title=`+ item.nameRu +`>`+ item.nameRu +` (`+ item.year +`)</h5>
                             <p class="card-text"></p>
-                            <a href="/main.js/film.html?`+ item.filmId +`" class="btn btn-primary">Смотреть</a>
+                            <a href="./film.html?`+ item.filmId +`" class="btn btn-primary">Смотреть</a>
                         </div>
                     </div>
                 </div>
